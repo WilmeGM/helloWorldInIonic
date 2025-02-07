@@ -1,0 +1,7 @@
+{
+  "name": "hw3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

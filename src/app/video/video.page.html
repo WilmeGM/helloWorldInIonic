@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>video</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>My Experience</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Dolore error saepe quo eligendi quaerat porro beatae repudiandae, 
+          libero doloribus asperiores incidunt aspernatur et maiores sequi 
+          assumenda repellat atque nesciunt harum!
+        </p>
+
+        <!-- Replace the link below with your YouTube video URL -->
+        <div class="video-container">
+          <iframe 
+            width="100%" 
+            height="315" 
+            src="https://www.youtube.com/embed/t5pnZDEeyNY" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
